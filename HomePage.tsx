@@ -14,7 +14,6 @@ import { useRouter } from "@/router/Router";
 import { categories, countries } from "@/data/catalog";
 import { CategoryIcon } from "@/components/CategoryIcon";
 import { ProductCard, ShopCard } from "@/components/Cards";
-import { SampleBadge } from "@/components/SampleBadge";
 import { fetchShops, fetchAllProducts } from "@/lib/db";
 import type { Shop, Product } from "@/data/types";
 
@@ -61,7 +60,7 @@ export function HomePage() {
         }} />
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
           <div className="mx-auto max-w-3xl text-center">
-            <SampleBadge text={t("hero.badge")} className="mx-auto" />
+          
             <h1 className="mt-5 text-4xl font-extrabold leading-tight tracking-tight text-navy-900 sm:text-5xl lg:text-6xl">
               {t("hero.title")}
             </h1>
