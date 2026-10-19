@@ -1,5 +1,5 @@
 import { AlertCircle, Home } from "lucide-react";
-import { RouterProvider, useRouter } from "@/router/Router";
+import { RouterProvider, useRouter } from "@/router/router";
 import { LanguageProvider } from "@/i18n/LanguageContext";
 import { AuthProvider } from "@/lib/auth";
 import { Header } from "@/components/Header";
