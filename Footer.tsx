@@ -5,7 +5,7 @@ import {
   FileText,
   Info,
 } from "lucide-react";
-import { useLanguage } from "../i18n/LanguageContext";
+import { useLanguage } from "./i18n/LanguageContext";
 import { useRouter } from "@/router/Router";
 
 export function Footer() {
