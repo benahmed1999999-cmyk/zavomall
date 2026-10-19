@@ -8,7 +8,7 @@ import {
   X,
   Check,
 } from "lucide-react";
-import { useLanguage } from "@/i18n/LanguageContext";
+import { useLanguage } from "./i18n/LanguageContext";
 import { localeFlags, localeNames, type Locale } from "@/i18n/translations";
 import { useRouter } from "@/router/Router";
 import { useAuth } from "@/lib/auth";
