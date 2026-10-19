@@ -65,7 +65,7 @@ function Routes() {
 
 function App() {
   return (
-    <LanguageProvider>
+    <AuthProvider>
       <AuthProvider>
         <RouterProvider>
           <div className="flex min-h-screen flex-col bg-white">
@@ -77,7 +77,7 @@ function App() {
           </div>
         </RouterProvider>
       </AuthProvider>
-    </LanguageProvider>
+        </AuthProvider>
   );
 }
 
