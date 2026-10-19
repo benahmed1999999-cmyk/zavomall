@@ -1,7 +1,7 @@
 import { AlertCircle, Home } from "lucide-react";
 import { RouterProvider, useRouter } from "./Router";
 import { AuthProvider } from "./auth";
-import { Header } from "@/components/Header";
+import { Header } from "./Header";
 import { Footer } from "@/components/Footer";
 import { HomePage } from "@/pages/HomePage";
 import { BrowsePage } from "@/pages/BrowsePage";
