@@ -3,13 +3,13 @@ import { RouterProvider, useRouter } from "./Router";
 import { AuthProvider } from "./auth";
 import { Header } from "./Header";
 import { Footer } from "./Footer";
-import { HomePage } from "@/pages/HomePage";
-import { BrowsePage } from "@/pages/BrowsePage";
-import { ShopPage } from "@/pages/ShopPage";
-import { ProductPage } from "@/pages/ProductPage";
-import { AuthPage } from "@/pages/AuthPage";
-import { DashboardPage } from "@/pages/DashboardPage";
-import { StaticPage } from "@/pages/StaticPage";
+import { HomePage } from "./HomePage";
+import { BrowsePage } from "./BrowsePage";
+import { ShopPage } from "./ShopPage";
+import { ProductPage } from "./ProductPage";
+import { AuthPage } from "./AuthPage";
+import { DashboardPage } from "./DashboardPage";
+import { StaticPage } from "./StaticPage";
 
 function NotFoundPage() {
   const { navigate } = useRouter();
