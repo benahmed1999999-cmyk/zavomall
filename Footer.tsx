@@ -6,8 +6,7 @@ import {
   Info,
 } from "lucide-react";
 import { useLanguage } from "./i18n/LanguageContext";
-import { useRouter } from "@/router/Router";
-
+import { useRouter } from "./Router";
 export function Footer() {
   const { t } = useLanguage();
   const { navigate } = useRouter();
