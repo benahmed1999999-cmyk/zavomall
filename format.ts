@@ -1,7 +1,9 @@
 import { useLanguage } from "@/i18n/LanguageContext";
 
+
 const currencySymbols: Record<string, string> = {
   USD: "$",
+  DZD: "دج",
   EUR: "€",
   SAR: "ر.س",
   AED: "د.إ",
@@ -10,6 +12,7 @@ const currencySymbols: Record<string, string> = {
   TND: "د.ت",
   GBP: "£",
 };
+
 
 export function formatPrice(price: number, currency: string, locale: string) {
   const symbol = currencySymbols[currency] ?? currency;
