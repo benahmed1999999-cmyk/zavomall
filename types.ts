@@ -26,7 +26,7 @@ export type Country = {
   cities: LocalizedText[];
 };
 
-export type Currency = "USD" | "EUR" | "SAR" | "AED" | "MAD" | "EGP" | "TND" | "GBP";
+export type Currency = "USD" | "DZD" | "EUR" | "SAR" | "AED" | "MAD" | "EGP" | "TND" | "GBP";
 
 export type Shop = {
   id: string;
