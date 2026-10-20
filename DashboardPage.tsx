@@ -456,10 +456,10 @@ function ProductEditor({
             </Field>
             <Field label={t("dash.product.currency")}>
               <select value={currency} onChange={(e) => setCurrency(e.target.value as Currency)} className={inputCls}>
-                {(["USD", "EUR", "SAR", "AED", "MAD", "EGP", "TND", "GBP"] as Currency[]).map((c) => (
+                {(["USD", "DZD"] as Currency[]).map((c) => (
                   <option key={c} value={c}>
-                    {c}
-                  </option>
+  {c === "USD" ? "USD — $ الدولار الأمريكي" : "DZD — دج الدينار الجزائري"}
+</option>
                 ))}
               </select>
             </Field>
